@@ -1,0 +1,25 @@
+{
+  "name": "movies-klaus14k",
+  "version": "1.0.0",
+  "description": "Hoje você recebeu uma demanda inesperada. O gestor de uma _locadora de filmes_ entrou em contato solicitando seus serviços.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/pg": "^8.10.3",
+    "@types/pg-format": "^1.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
